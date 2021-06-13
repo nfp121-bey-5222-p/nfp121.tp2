@@ -1,9 +1,10 @@
 package question1;
 public class FahrenheitCelsius {
     public static void main(String[] args) {
-        int fahrenheit=0;
+        
+        int fahrenheit=(String)f.getText;
     
-        float celsius=0;
+        float celsius=Float.parseFloat(f);
     
         System.out.println(fahrenheit + "\u00B0F -> " + celsius + "\u00B0C"); // ligne,
                                                                              // format
