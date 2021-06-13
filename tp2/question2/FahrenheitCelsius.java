@@ -31,7 +31,10 @@ public class FahrenheitCelsius{
       */
      public static float fahrenheitEnCelsius( int f){
        // ...
-       return 0.F;	// à compléter	en remplaçant la valeur retournée par la fonction de conversion
+       String s=Integer.toString(f);
+        f=Integer.parseInt((String)s);
+        f=(f-32)*5/9;
+        return f;    // à compléter    en remplaçant la valeur retournée par la fonction de conversion
        // ...
      }
 
